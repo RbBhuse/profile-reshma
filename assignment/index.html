@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index page</title>
+    <!--CDN Link --font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CDN Link - Google font families -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Poppins&family=Roboto:wght@500;900&display=swap" rel="stylesheet">
+
     <style>
         p{
          color: white;
@@ -11,16 +18,57 @@
          padding: 10px;
          
          }
-         a{
+         nav a{
             margin-left: 30px;
+            font-family: 'Concert One', sans-serif;
+         }
+        
+        .container{
+           list-style-type: none;
+           display: flex;
+           font-size: 17px;
          
          }
+         .logo{
+            margin-right: auto;
+            height: 45px;
+            width: 45px;
+            border-radius: 22px;
+          
+         }
+
+         footer span{
+            margin-left: 30px;
+            height: 50px;
+            width: 50px;
+         }
+
+         ul li i{
+            margin-left: 30px;
+            margin-top: 10px;
+         }
+         header{
+            background-color: #000033;
+            color: white;
+         }
+        
      </style>
 </head>
 <body>
    <!-- Header Section -->
    <header>
-    <p> Name: Reshma Bhuse &nbsp;&nbsp;&nbsp;&nbsp; Mobile: 9700 6750 66 &nbsp;&nbsp;&nbsp;&nbsp; Email: abc@gmail.com</p>
+    
+    <ul class="container">
+        <img src="assests/person.png" alt="" class="logo">
+        <li><i class="fa fa-user" aria-hidden="true"></i>Reshma Bhuse</li>
+        <li><i class="fa fa-phone-square" aria-hidden="true"></i> 89700 6750 66 </li>
+        <li><i class="fa fa-envelope" aria-hidden="true"></i> abc@gmail.com</li>
+ 
+    
+    <!--<span> <i class="fa fa-user" aria-hidden="true"></i>Reshma Bhuse </span>
+    <span> <i class="fa fa-phone-square" aria-hidden="true"></i> 89700 6750 66 </span>
+    <span> <i class="fa fa-envelope" aria-hidden="true"></i> abc@gmail.com</span>-->
+</ul>
 </header>
 <hr>
 <!-- Navigation Section -->
@@ -33,14 +81,14 @@
 </nav>
 <hr>
      <!-- Body Section -->
-     <iframe src="home.html" name="mainFrame" frameborder="0" width="900px" height="450px">
+     <iframe src="home.html" name="mainFrame" frameborder="0" width="1000px" height="580px">
 
      </iframe>
      <!-- Footer Section -->
      <footer>
-         <a href="https://www.linkedin.com/feed/">Linked IN</a> &nbsp;&nbsp;&nbsp;&nbsp;
-         <a href="https://github.com/pBhuse/profile-reshma">GitHub</a>&nbsp;&nbsp;&nbsp;&nbsp;
-         <a href="https://github.com/pBhuse/profile-reshma">Naukri</a>
+         <span><a href="https://www.linkedin.com/feed/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a> </span>
+         <span><a href="https://github.com/RbBhuse/profile-reshma" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></span>
+         <span><a href="https://www.naukri.com/registration/createAccount?othersrcp=23531&wExp=N&utm_source=google&utm_medium=cpc&utm_campaign=Brand_Login_Register&gad_source=1&gclid=EAIaIQobChMI6Pj6-f6XgwMVg6tmAh3Erg_sEAAYASAAEgLowPD_BwE&gclsrc=aw.ds" target="_blank"><i class="fa fa-laptop" aria-hidden="true"></i></a></span>
      </footer>
      <!-- Footer Section -->
 </body>
