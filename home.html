@@ -10,8 +10,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap" rel="stylesheet">
     <style>
      .summery{
-background-color: #E2E5DE;
+background-color:  #E0E0E0;
+
 font-family: 'Poppins', sans-serif;
+
 
         }
     span{
@@ -25,14 +27,29 @@ font-family: 'Poppins', sans-serif;
         padding: 10px;
         margin-left: 5px;
     }
-    ul li{
+    .psummeryInfo{
         list-style-type: square;
         font-family: 'Roboto', sans-serif;
     }
     p{
         font-family: 'Roboto', sans-serif;
-
+        
     }
+
+    .psummeryInfo li::before{
+            content: "👉";
+        }
+li:hover{
+    background-color: #ff80ff;
+}
+body{
+background-image: url(assests/bgNature1.jpg);
+background-repeat: repeat;
+background-size: cover;
+}
+.psummeryInfo{
+    font-size: 18px;
+}
     </style>
 </head>
 <body>
@@ -41,7 +58,7 @@ font-family: 'Poppins', sans-serif;
     TO WORK IN ORGANIZATION WHERE I CAN LEARN AND GROW MY SKILL AND HELP THE ORGANIZATION SKILL.
     </p>
     <h2 class="summery">Professional Summery</h2>
-    <ul>
+    <ul class="psummeryInfo">
         <li>Having 5 years of experience in developing Single page Web Applications using <span>Angular 13</span>, HTML5, CSS3, Bootstrap 5, JavaScript, ES6, TypeScript</li>
         <li id="list">Experience on working with version control system - GIT and GitHub</li>
         <li> Experience working with JIRA for user stories and bug tracking</li>
