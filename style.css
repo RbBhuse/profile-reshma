@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&family=Poppins&family=Roboto:wght@100;400;900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #faf9f6;
+}
+#logo {
+  height: 30px;
+}
+
+#ulb {
+  list-style-type: none;
+  margin-left: 240px;
+  font-size: 15px;
+  line-height: 20px;
+}
+#ulc {
+  list-style-type: none;
+  margin-left: 1180px;
+  font-size: 15px;
+  line-height: 20px;
+}
+.first {
+  float: left;
+}
+
+.cimg {
+  float: left;
+  height: 160px;
+  width: 270px;
+  margin-left: 120px;
+}
+
+.bimg {
+  height: 160px;
+  width: 270px;
+  float: left;
+}
+.footer {
+  height: 50px;
+  width: 300px;
+  margin-top: 300px;
+  margin-left: auto;
+  color: blue;
+  font-weight: bold;
+  font-size: 22px;
+}
