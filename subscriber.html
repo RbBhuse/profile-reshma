@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subscriber Page</title>
+    <style>
+      .main {
+        height: 680px;
+        width: 500px;
+        border: 1px solid #ccffff;
+        background-color: #ccffff;
+        margin: auto;
+        margin-top: 80px;
+      }
+
+      * {
+        padding-left: 15px;
+      }
+      #email {
+        height: 28px;
+        width: 370px;
+      }
+      #unsubscribe {
+        height: 40px;
+        width: 370px;
+      }
+      p {
+        height: 250px;
+        width: 400px;
+        background-color: blue;
+        border-radius: 10px;
+        font-size: 22px;
+        padding-left: 10px;
+      }
+      button {
+        margin-top: 15px;
+        padding: 12px;
+        margin-left: 380px;
+        height: 40px;
+        width: 100px;
+        border-radius: 4px;
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <h2>Subscriber</h2>
+      <hr />
+
+      <p>
+        We're sorry to see you go, but hey, no hard feelings, hopefully we will
+        see you back one day. <br />
+
+        Please fill in your email address in order to unsubscribe from the list.
+        <br />
+
+        You will receive an email to confirm your unsubscription, just to make
+        sure this is not an accident or somebody else tries to unsubscribe you.
+      </p>
+
+      <form action="">
+        <label for=""
+          ><h2>Email <span style="color: red">*</span></h2>
+        </label>
+        <input type="email" name="" id="email" />
+        <label for=""> <h2>Unsubscribe reason</h2></label>
+        <input
+          type="text"
+          name=""
+          id="unsubscribe"
+          placeholder="Unsubscribe reason"
+        />
+      </form>
+      <hr />
+
+      <button type="button">Unsubscribe</button>
+    </div>
+  </body>
+</html>
