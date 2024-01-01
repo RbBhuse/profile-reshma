@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <style>
+      .container {
+        height: 600px;
+        width: 500px;
+        border: 1px solid red;
+        margin: auto;
+        margin-top: 130px;
+       background-color: azure;
+      }
+
+      h1 {
+        font-weight: bold;
+        text-align: center;
+        font-size: 40px;
+      }
+
+      .calculateBMI {
+        height: 65px;
+        width: 360px;
+        background-color: white;
+        border-radius: 10px;
+        margin-left: 70px;
+      }
+      .hwbCSS{
+        height: 40px;
+        width: 330px;
+        margin-left: 80px;
+      }
+      span{
+       margin-left: 200px;
+       font-size: 23px;
+       font-weight: bold;
+      }
+      
+      .subres{
+
+        height: 40px;
+        width:450px ;
+        margin-left: 20px;
+        margin-top: 20px;
+      }
+      *{
+        line-height: 40px;
+        border-radius: 10px;
+        font-size: 20px;
+       font-weight: bold;
+      }
+      body{
+        background-image: url("assests/bmiBGImg.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>BMI Calculator</h1>
+      <hr />
+   
+        
+      <span>Height(cm) </span><br>
+      <input type="text"name=""    class="hwbCSS" placeholder="Enter your Height in cm" /> <br>
+      <span>Weight (kg) </span><br> 
+      <input type="text"name=""   class="hwbCSS" placeholder="Enter your weight in kg"   /><br>
+      <span>Your BMI=</span><br>
+      <input type="text" name="" class="hwbCSS"  placeholder="Your BMI"/><br>
+<br>
+      <input type="submit" value="Calculate BMI" class="subres" style="background-color: #33ff77;"/>
+      <input type="reset" value="Reset" class="subres"  style="background-color: red;"/><br>
+        
+        
+      </form>
+    </div>
+    <!-- end of main div-->
+  </body>
+</html>
